@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+    <string name="name">ADEDIMEJI SEBIOTIMO</string>
+    <string name="profile_picture_contentDescription">Profile picture</string>
+    <string name="track">Track: Android</string>
+    <string name="country">Country: Nigeria</string>
+    <string name="email">E-mail: adedimejisebiotimo@gmail.com</string>
+    <string name="phone_number">Phone Number: +2348166853042</string>
+    <string name="slack_username">Slack Username: @Dims95</string>
+</resources>
