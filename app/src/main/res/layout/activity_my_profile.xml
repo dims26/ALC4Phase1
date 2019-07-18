@@ -10,14 +10,14 @@
         android:id="@+id/imageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:contentDescription="@string/profile_picture_contentDescription"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@drawable/profile"
-        android:contentDescription="@string/profile_picture_contentDescription" />
+        app:srcCompat="@drawable/profile" />
 
     <TextView
         android:id="@+id/textView"
@@ -63,9 +63,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="32dp"
+            android:layout_weight="1"
             android:text="@string/track"
-            android:textColor="@android:color/black"
-            android:layout_weight="1"/>
+            android:textColor="@android:color/black" />
 
         <TextView
             android:id="@+id/Country"
@@ -73,9 +73,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
+            android:layout_weight="1"
             android:text="@string/country"
-            android:textColor="@android:color/black"
-            android:layout_weight="1"/>
+            android:textColor="@android:color/black" />
 
         <TextView
             android:id="@+id/Email"
@@ -93,9 +93,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
+            android:layout_weight="1"
             android:text="@string/phone_number"
-            android:textColor="@android:color/black"
-            android:layout_weight="1"/>
+            android:textColor="@android:color/black" />
 
         <TextView
             android:id="@+id/Slack"
@@ -104,9 +104,9 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="32dp"
+            android:layout_weight="1"
             android:text="@string/slack_username"
-            android:textColor="@android:color/black"
-            android:layout_weight="1"/>
+            android:textColor="@android:color/black" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
